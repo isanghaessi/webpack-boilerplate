@@ -28,14 +28,6 @@ export default {
                                 },
                             ],
                         ],
-                        plugins: [
-                            [
-                                '@babel/plugin-transform-runtime',
-                                {
-                                    corejs: 3,
-                                },
-                            ],
-                        ],
                     },
                 },
             },
