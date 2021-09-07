@@ -45,6 +45,9 @@ export default {
             },
         ],
     },
+    devServer: {
+        port: 5000,
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: './source/index.html',
